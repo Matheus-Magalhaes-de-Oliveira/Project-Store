@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0% auto;
+    border: 1px solid #333;
+}
+
+.logosvg {
+    max-height: 50px;
+    position: absolute;
+    margin-top: 0%;
+    bottom:0%;
+    animation: logosvg-animation 5s infinite linear;
+}
+
+@keyframes logosvg-animation{
+    from{
+        right: -100px;
+    }
+
+    to{
+        right:23%;
+    }
+}
+.logos {
+    max-height: 50px;
+    position: absolute;
+    left: 0%;
+    margin-top: 0%;
+    bottom:0%;
+    animation: logo-animation 5s infinite linear;
+}
+
+@keyframes logo-animation{
+    from{
+        left: -100px;
+    }
+
+    to{
+        left:23%;
+    }
+}
+
+header a {
+    font-family: Arial;
+    color: #fff;
+}
+
+#content {
+    text-align: left;
+    max-width: 1200px;
+    font-family: Arial;
+    margin: 0 auto;
+    color: black;
+}
+
+.form div {
+    padding: 10px;
+    text-align: left;
+    font-family: Arial;
+}
+
+.table {
+    width: 100%;
+    height: 200px;
+}
+
+.table th:hover {
+    background: #222;
+    border: 1px solid #363636;
+    font-family: Arial;
+}
+
+.table th:hover {
+    color: #fafafa;
+}
+
+.table td {
+    border: 1px solid #363636;
+    font-family: Arial;
+}
+
+.small-blocked-image {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.table tr {
+    background-color: #E8E8E8;
+}
+
+.table th {
+    background-color: rgb(132, 0, 255);
+}
+
+.small-blocked-image {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.edit:hover {
+    color: rgb(3, 119, 187);
+}
+
+.edit:hover {
+    color: rgb(204, 0, 255);
+}
+
+.delete:hover {
+    color: rgb(3, 119, 187);
+
+}
+
+.delete:hover {
+    color: red;
+    transition: 0.2s linear
+}
+
+.table {
+    background-color: #CFCFCF;
+}
